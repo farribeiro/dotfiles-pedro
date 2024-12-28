@@ -1,0 +1,7 @@
+{
+	"name": "com.lacunasoftware.webpki",
+	"description": "PKI Connector",
+	"path": "/home/pedro/.lacuna-webpki/webpki",
+	"type": "stdio",
+	"allowed_extensions": [ "webpki-beta@lacunasoftware.com", "webpki@lacunasoftware.com" ]
+}
