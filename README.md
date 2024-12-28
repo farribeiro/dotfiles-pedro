@@ -16,6 +16,6 @@ Tais configurações foram testadas no Debian 12, Arch (final de 2024), Fedora W
 
 OBS 1: Os arquivos fazem referência ao meu usuário "pedro"; sua utilização dependerá da adaptação para o nome do usuário que irá utilizá-lo.
 
-OBS 2: Para o módulo token Safesign funcionar com essas configurações, o arquivo libaetpkss.so e seus links simbólicos deverão ser extraídos do pacote deb e rpm e copiado para ~/.local/lib. Os pacotes podem ser encontrados aqui: https://certificaat.kpn.com/installatie-en-gebruik/installatie/pas-usb-stick/linux/. Minha experiência indica que as libs do pacote deb têm melhor compatibilidade entre distribuições.
+OBS 2: Para o módulo token Safesign funcionar com essas configurações, o arquivo libaetpkss.so e seus links simbólicos deverão ser extraídos do pacote deb e rpm e copiados para ~/.local/lib. Os pacotes podem ser encontrados aqui: https://certificaat.kpn.com/installatie-en-gebruik/installatie/pas-usb-stick/linux/. Minha experiência indica que as libs do pacote deb têm melhor compatibilidade entre distribuições.
 
 OBS 3: Para os plugins utilizados pelo eSAJ (Lacuna Web PKI e Softplan Web Signer) funcionarem, será necessário baixar os pacotes deb de referidos plugins, extraí-los e copiar o executável webpki para ~/.lacuna-webpki e websigner para ~/.softplan-websigner. Eles podem ser baixados em https://get.webpkiplugin.com/ e https://websigner.softplan.com.br/.
