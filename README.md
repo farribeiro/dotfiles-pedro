@@ -12,7 +12,7 @@ d) configurar o módulo de token Safesign, fornecido pela OAB-SP, nas configura�
 
 e) desabilitar o módulo opensc, que em geral acompanha a instalação padrão do Fedora, uma vez que gera incompatibilidades com o certificado digital Safesign.
 
-Tais configurações foram testadas no Debian 12, Arch (final de 2024), Fedora Workstation 41 e Fedora Silverblue 41.
+Tais configurações foram testadas no Debian 12, Arch (final de 2024) e Fedora Silverblue 41.
 
 OBS 1: Os arquivos fazem referência ao meu usuário "pedro"; sua utilização dependerá da adaptação para o nome do usuário que irá utilizá-lo.
 
