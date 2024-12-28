@@ -19,3 +19,45 @@ OBS 1: Os arquivos fazem referência ao meu usuário "pedro"; sua utilização d
 OBS 2: Para o módulo token Safesign funcionar com essas configurações, o arquivo libaetpkss.so e seus links simbólicos deverão ser extraídos do pacote deb e rpm e copiados para ~/.local/lib. Os pacotes podem ser encontrados aqui: https://certificaat.kpn.com/installatie-en-gebruik/installatie/pas-usb-stick/linux/. Minha experiência indica que as libs do pacote deb têm melhor compatibilidade entre distribuições.
 
 OBS 3: Para os plugins utilizados pelo eSAJ (Lacuna Web PKI e Softplan Web Signer) funcionarem, será necessário baixar os pacotes deb de referidos plugins, extraí-los e copiar o executável webpki para ~/.lacuna-webpki e websigner para ~/.softplan-websigner. Eles podem ser baixados em https://get.webpkiplugin.com/ e https://websigner.softplan.com.br/.
+
+---
+
+Tutorial para extrair as libs do Safesign:
+
+a) Faça o download do pacote do pacote deb para última versão do Ubuntu disponível em https://certificaat.kpn.com/installatie-en-gebruik/installatie/pas-usb-stick/linux/
+
+b) Extraia o conteúdo do pacote deb rodando o seguinte comando no terminal: $ ar x nome-do-pacote.deb .
+
+c) Extraia o conteúdo do pacote data.tar.zst, que irá aparecer após o rodando o comando acima, com o seguinte comando: $ tar --zstd -xvf data.tar.zst .
+
+d) Crie o diretório lib em ~/.local/lib usando o seguinte comando: $ mkdir -p ~/.local/lib
+
+e) Copie as libs necessários para ~/.local/lib usando o seguinte comando: $ cp usr/lib/libaetpkss.so* ~/.local/lib
+
+---
+
+Tutorial para extrair Lacuna Web PKI:
+
+a) Instale o plugin para Firefox no respectivo site: https://get.webpkiplugin.com/ .
+
+b) Extraia o conteúdo do pacote deb rodando o seguinte comando no terminal: $ ar x nome-do-pacote.deb .
+
+c) Extraia o conteúdo do pacote data.tar.zst, que irá aparecer após o rodando o comando acima, com o seguinte comando: $ tar --zstd -xvf data.tar.zst .
+
+d) Crie os diretórios rodando o seguinte comando: $ mkdir ~/.lacuna-webpki
+
+e) Copie o executável webpki para seu diretório com o seguinte comando: $ cp opt/lacuna-webpki/webpki ~/.lacuna-webpki
+
+---
+
+Tutorial para extrair Softplan Web Signer:
+
+a) Instale o plugin para Firefox no respectivo site: https://websigner.softplan.com.br/
+
+b) Extraia o conteúdo do pacote deb rodando o seguinte comando no terminal: $ ar x nome-do-pacote.deb .
+
+c) Extraia o conteúdo do pacote data.tar.zst, que irá aparecer após o rodando o comando acima, com o seguinte comando: $ tar xvf data.tar.xz .
+
+d) Crie os diretórios rodando o seguinte comando: $ mkdir ~/.softplan-websigner
+
+e) Copie o executável websigner para seu diretório com o seguinte comando: $ cp opt/softplan-websigner/websigner ~/.lacuna-webpki
