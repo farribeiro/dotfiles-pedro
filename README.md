@@ -1,6 +1,6 @@
 # dotfiles
 
-Trata-se de arquivos ocultos ("dotfiles") utilizados para configuração de workstation para exercício da advocacia no Brasil utilizando Linux. Tais arquivos farão o seguinte:
+Trata-se de arquivos ocultos ("dotfiles") utilizados para configuração de workstation para exercício da advocacia no Brasil utilizando Linux, além de outros arquivos de configuração geral que tomo por relevantes. Tais arquivos farão o seguinte:
 
 a) configurar a fonte Calibri, padrão de mercado para e-mails e petições, desativando a fontes de bitmap incorporadas (veja https://wiki.archlinux.org/title/Font_configuration);
 
@@ -12,7 +12,7 @@ d) configurar o módulo de token Safesign, fornecido pela OAB-SP, nas configura�
 
 e) desabilitar o módulo opensc, que em geral acompanha a instalação padrão do Fedora, uma vez que gera incompatibilidades com o certificado digital Safesign.
 
-Tais configurações foram testadas no Debian 12, Arch (final de 2024) e Fedora Silverblue 41.
+Tais configurações foram testadas no Debian 12, Arch (início de 2025) e Fedora Silverblue 41.
 
 OBS 1: Os arquivos fazem referência ao meu usuário "pedro"; sua utilização dependerá da adaptação para o nome do usuário que irá utilizá-lo.
 
