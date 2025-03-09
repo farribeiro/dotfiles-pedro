@@ -95,5 +95,5 @@ mkdir ~/.softplan-websigner
 Copie o executável websigner para seu diretório com o seguinte comando:
 
 ```bash
-cp opt/softplan-websigner/websigner ~/.lacuna-webpki
+cp opt/softplan-websigner/websigner ~/.softplan-websigner
 ```
