@@ -1,0 +1,11 @@
+[Unit]
+Description=Update a Fedora toolbox container
+After=graphical-session.target
+
+[Service]
+Type=oneshot
+Environment=CONTAINER=%i
+ExecStart=/usr/bin/toolbox run -c $CONTAINER sudo dnf upgrade --quiet --refresh -y
+
+[Install]
+WantedBy=graphical-session.target
