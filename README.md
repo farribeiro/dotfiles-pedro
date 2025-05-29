@@ -6,7 +6,7 @@ Trata-se de arquivos ocultos ("dotfiles") utilizados para configuração de work
 4. configurar o módulo de token Safesign, fornecido pela OAB-SP, nas configurações de pk11-kit, a fim de que possa ser utilizado de forma geral pelo sistema, inclusive em diversos navegadores;
 5. desabilitar o módulo opensc, que em geral acompanha a instalação padrão do Fedora, uma vez que gera incompatibilidades com o certificado digital Safesign.
 
-Tais configurações foram testadas no Debian 12, Arch (início de 2025) e Fedora Silverblue 41.
+Tais configurações foram testadas no Debian 12, Arch (início de 2025) e Fedora Silverblue 42.
 
 **OBS 1:** Os arquivos fazem referência ao meu usuário "pedro"; sua utilização dependerá da adaptação para o nome do usuário que irá utilizá-lo.
 
