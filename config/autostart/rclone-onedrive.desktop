@@ -1,5 +1,5 @@
 [Desktop Entry]
-Exec=rclone --vfs-cache-mode writes mount "OneDrive": ~/Documentos/OneDrive/ --daemon
+Exec=rclone --vfs-cache-mode writes mount "OneDrive": /home/pedro/Documentos/OneDrive/ --daemon
 Icon=
 Name=rclone-onedrive
 Path=
