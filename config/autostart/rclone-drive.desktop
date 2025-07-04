@@ -1,7 +1,0 @@
-[Desktop Entry]
-Exec=rclone --vfs-cache-mode writes mount "Google Drive": ~/Documentos/Google\\ Drive/ --daemon
-Icon=
-Name=rclone-drive
-Path=
-Terminal=False
-Type=Application
