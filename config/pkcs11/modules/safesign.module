@@ -1,4 +1,4 @@
 module: /var/home/pedro/.local/lib/libaetpkss.so
 
 # Se for utilizado rpm na instalação, deve-se comentar a linha acima e descomentar a seguinte:
-#module: /usr/lib64/libaetpkss.so
+# module: /usr/lib64/libaetpkss.so
