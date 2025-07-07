@@ -1,4 +1,5 @@
-module: /var/home/pedro/.local/lib/libaetpkss.so
+# Se utilizar a biblioteca de maneira local (home), deve-se descomentar a seguinte linha:
+# module: /var/home/pedro/.local/lib/libaetpkss.so
 
-# Se for utilizado rpm na instalação, deve-se comentar a linha acima e descomentar a seguinte:
+# Se instalar o rpm, deve-se descomentar a linha seguinte:
 # module: /usr/lib64/libaetpkss.so
