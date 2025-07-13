@@ -1,7 +1,0 @@
-{
-	"name": "br.com.softplan.webpki",
-	"description": "PKI Connector",
-	"path": "/home/pedro/.softplan-websigner/websigner",
-	"type": "stdio",
-	"allowed_extensions": [ "websigner@softplan_com_br", "websigner@softplan.com.br" ]
-}
