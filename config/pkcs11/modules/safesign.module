@@ -1,1 +1,5 @@
-module: /usr/lib64/libaetpkss.so
+# Arch e Fedora
+# module: /usr/lib64/libaetpkss.so
+
+# Mint
+# module: /usr/lib/libaetpkss.so
