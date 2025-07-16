@@ -1,9 +1,0 @@
-[Desktop Entry]
-Type=Application
-Exec=sh -c "rclone --vfs-cache-mode writes mount "drive": ~/Documentos/Google\\ Drive/ --daemon"
-X-GNOME-Autostart-enabled=true
-NoDisplay=false
-Hidden=false
-Name[pt_BR]=rclone-drive
-Comment[pt_BR]=Sem descrição
-X-GNOME-Autostart-Delay=0
