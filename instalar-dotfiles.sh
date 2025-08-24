@@ -22,13 +22,6 @@ fi
 # 2. Copia os arquivos para seus respectivos diretórios
 echo "Copiando arquivos de configuração..."
 
-# Diretório para os arquivos de fonte
-FONT_CONFIG_DIR="$HOME/.config/fontconfig/conf.d"
-echo "Verificando e criando diretório: $FONT_CONFIG_DIR"
-mkdir -p "$FONT_CONFIG_DIR"
-cp "$TEMP_DIR/config/fontconfig/conf.d/30-0-google-crosextra-caladea-fontconfig.conf" "$FONT_CONFIG_DIR/"
-cp "$TEMP_DIR/config/fontconfig/conf.d/30-0-google-crosextra-carlito-fontconfig.conf" "$FONT_CONFIG_DIR/"
-
 # Diretório para o plugin do Evolution
 EVOLUTION_PLUGIN_DIR="$HOME/.var/app/org.gnome.Evolution/data/evolution/webkit-editor-plugins"
 echo "Verificando e criando diretório: $EVOLUTION_PLUGIN_DIR"
