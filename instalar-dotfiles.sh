@@ -28,6 +28,12 @@ echo "Verificando e criando diretório: $EVOLUTION_PLUGIN_DIR"
 mkdir -p "$EVOLUTION_PLUGIN_DIR"
 cp "$TEMP_DIR/var/app/org.gnome.Evolution/data/evolution/webkit-editor-plugins/body-font.js" "$EVOLUTION_PLUGIN_DIR/"
 
+# Diretório para as permissões de Flatpak
+FLATPAK_OVERRIDES_DIR="$HOME/.local/share/flatpak/overrides"
+echo "Verificando e criando diretório: $FLATPAK_OVERRIDES_DIR"
+mkdir -p "$FLATPAK_OVERRIDES_DIR"
+cp "$TEMP_DIR/local/share/flatpak/overrides/global" "$FLATPAK_OVERRIDES_DIR/"
+
 # ---
 
 # 3. Limpa o diretório temporário
